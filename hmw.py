@@ -47,7 +47,7 @@ class Customer:
             return False
         if self.__balance > 0:
             self.__balance += 50
-            print(f"{self.name} balans to'ldirdi ✔")
+            print(f"{self.name} balans to'ldirdi 🔋")
             return True
         else:
             print(f"{self.name} bankrot 💀")
